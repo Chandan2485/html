@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            padding: 5px;
+            margin: 0;
+        }
+        .u{
+            border: 1px solid black;
+            border-radius: 6px;
+            padding: 5px;
+            width: 370px;
+           height: 100vp;
+        }
+
+        p {
+            font-weight: bold;
+        }
+
+        .z {
+            margin-left: 35px;
+        }
+
+        .y {
+            margin-left: 15px;
+        }
+
+        .x {
+            width: 350px;
+            height: 25px;
+            background-color: blue;
+            color: white;
+            border-radius: 6px;
+        }
+        .v{
+            
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+    <title>form</title>
+</head>
+
+<body><form class="v">
+    <div class="u">
+        <p style="text-align:center ;">Sign UP</p>
+        <p>Name<Sup>*</Sup></p>
+        <input type="text" placeholder="First Name" style="width: 150px;">
+        <input class="z" type="text" placeholder="Last Name" style="width: 150px;">
+        <p>Email Adress<sup>*</sup> </p>
+        <input type="text" placeholder="example@gmail.com" style="width: 350px;">
+        <p>Password<sup>*</sup> </p>
+        <input type="text" style="width: 350px;">
+        <p>Confirm Password<sup>*</sup> </p>
+        <input type="text" style="width: 350px;">
+        <p>Date of Birth<sup>*</sup> </p>
+        <input type="date" name="" id="">
+        <p>Gender<sup>*</sup> </p>
+        <input type="radio" name="Gender" id="">Male
+        <input class="y" type="radio" name="Gender" id="">Female
+        <input class="y" type="radio" name="Gender" id="">Other
+        <p>Language Known</p>
+        <input type="checkbox" name="Language Known" id="">React
+        <input class="y" type="checkbox" name="Language Known" id="">Angular
+        <input class="y" type="checkbox" name="Language Known" id="">Vue
+        <p>Experience Level <sup>*</sup></p>
+        <select name="Experience Level" id="">
+            <option value="">Beginner</option>
+            <option value="">Intermediate</option>
+            <option value="">Advance</option>
+        </select>
+        <p>Tell us something about you<sup>*</sup></p>
+        <input type="text" name="" id=""><br><br>
+        <input type="checkbox" name="" id="">I accept the <a href="#">T&C</a>
+        <br><br>
+        <input class="x" type="submit" value="submit">
+
+    </div>
+</form>
+</body>
+
+</html>

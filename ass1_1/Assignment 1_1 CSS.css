@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h3{
+    text-align: center;
+}
+img{
+   height: 150px;
+   width: 300px;
+}
+.had {
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+.had a {
+    color: black;
+}
+.hads b a {
+    color: red;
+}
+.fot{
+    background-color: blue;
+}
+.fot h3{
+    color: white;
+}
+.fot a{
+    color: red;
+    margin-left: 200px;
+}
