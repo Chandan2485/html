@@ -22,13 +22,15 @@
          margin:5px;
         
      }
-     .f input{
+     .f a input{
       outline: 0;
       border-width: 0 0 1px;
       border-color: black;
       margin: 5px;
       }
-
-      .f input:focus{
+      .f a input:focus{
           border-color: blue
+      }
+      .b{
+          text-align: center;
       }
