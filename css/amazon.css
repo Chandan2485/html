@@ -1,0 +1,13 @@
+.main{
+    background-color: yellow;
+    height: 500px;
+    width: 300px;
+}
+header{
+    height: 50px;
+    background-color: blue;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin: auto;
+}

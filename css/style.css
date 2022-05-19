@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #ff9900;
+    height: 60px;
+}
+header h2{
+    padding-top: 15px;
+    padding-left: 30px;
+}
+.con{
+    background-color: aqua;
+    height: 350px;
+    width: 250px;
+    border: 2px solid black;  
+   
+    
+}
+main{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.head{
+    height: 50px;
+    background-color: blue;
+}
+.con img{
+    height: 200px;
+    width: 150px;
+    margin: 20px 50px;
+}
+
+.con a{
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 5px;
+    margin:5px 75px;
+}
