@@ -24,6 +24,7 @@ h3{
     font-size: 30px;
     color: blue;
     transition: transform 2s;
+    cursor: pointer;
 }
 .food>h3:hover{
     background-color: blueviolet;
@@ -39,6 +40,7 @@ h3{
     border: 10px ridge red;
     border-radius: 25px;
     transition: transform 2s;
+    cursor: grab;
 }
 .food>img:hover{
     height: 250px;
