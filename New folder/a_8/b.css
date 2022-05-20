@@ -11,22 +11,40 @@ header>h1{
     padding-top: 15px;
 }
                                               /*main body*/
+
 .food1{
     margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
 
 }
+h3{
+    text-align: center;
+    margin-top:10px;
+    font-size: 30px;
+    color: blue;
+    transition: transform 2s;
+}
+.food>h3:hover{
+    background-color: blueviolet;
+    color: black;
+    border: 10px ridge blue;
+    border-radius: 10px;
+    transform: scale(1.3);
+}
+
 .food>img{
     height: 200px;
     width: 200px;
-    border: 4px solid red;
+    border: 10px ridge red;
+    border-radius: 25px;
     transition: transform 2s;
 }
 .food>img:hover{
     height: 250px;
     width: 250px;
     transform: scale(1.3);
+   
 }
 
 .description{
