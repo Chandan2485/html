@@ -1,7 +1,9 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: rgb(20, 214, 14);
 }
+
 header{
     background-color: lightseagreen;
     height: 70px;
@@ -9,6 +11,7 @@ header{
 }
 header>h1{
     padding-top: 15px;
+    background-color: lightseagreen;
 }
                                               /*main body*/
 
@@ -53,10 +56,10 @@ h3{
     padding: 20px;
     margin:75px auto;
     width: 75%;
-    border-top: 3px solid blue;
-    border-bottom: 3px solid rgb(255, 0, 149);
-    border-left: 3px solid rgb(0, 255, 13);
-    border-right: 3px solid rgb(255, 30, 0);
+    border-top: 10px groove blue;
+    border-bottom: 10px groove rgb(255, 0, 149);
+    border-left:10px groove rgb(10, 10, 10);
+    border-right: 10px groove rgb(255, 30, 0);
     font-weight: bold;
     font-style: italic;
     text-align: center;
@@ -79,7 +82,10 @@ footer>a{
     font-size: 30px;
     padding: 0 25px;
     text-decoration: none;
-   
+    background-color: blueviolet;
+    margin: 0 20px;
+    border: 5px ridge black;
+   transition: 1000ms;
 }
 
 footer>a:hover{

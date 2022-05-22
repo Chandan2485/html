@@ -1,13 +1,66 @@
-.main{
-    background-color: yellow;
-    height: 500px;
-    width: 300px;
+*{
+    padding: 0;
+    margin: 0;
 }
 header{
-    height: 50px;
-    background-color: blue;
-    font-size: 20px;
-    font-weight: bold;
+    background-color: brown;
+}
+.logo{
+    display: inline-block;
+    padding: 10px 10px;
+    margin: 20px 100px;
     color: white;
-    margin: auto;
+    text-decoration: underline;
+}
+.navbar{
+    display: inline-block;
+    float:right;
+    margin-right: 100px;
+}
+.navbar>ul>li{
+   display: inline-block;
+   padding: 10px 10px;
+   margin: 20px ;
+   color: white;
+   font-size: 20px;
+   font-weight: bold;
+   transition: 500ms;
+}
+.navbar>ul>li:hover{
+    border-bottom: 4px solid white;
+    border-top: 4px solid white;
+}
+
+
+main{
+    margin-top: 50px;
+}
+.art>p{
+   
+    float:right;
+    width: 40%;
+    margin-right: 200px ;
+   /*border: 1px solid black;*/
+}
+.art>img{
+    width: 25%;
+    height: 200px;
+    margin-left: 200px ;
+    /*border: 1px solid black;*/
+}
+.art_1>p{
+    
+    float:left;
+    width: 40%;
+    /*border: 1px solid black;*/
+    margin: 50px 0;
+    margin-left: 200px;
+}
+.art_1>img{
+    width: 25%;
+    height: 200px;
+    /*border: 1px solid black;*/
+    margin: 50px 0;
+    margin-right: 200px ;
+    margin-left: 50px;
 }
