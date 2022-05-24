@@ -16,9 +16,6 @@ header{
     justify-content: space-between;
     align-items: center; 
 }
-.logo>h1>a{
-    text
-}
 .navbar>ul{
     display: flex;
 }
