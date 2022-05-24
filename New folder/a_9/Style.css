@@ -44,10 +44,10 @@ header{
     color: black;
     border-radius: 7px;
 }
+                         /* --------------------body-part-1-----------------*/
 .header{
     height: 250px;
-    background-color: #c15355;
-    
+    background-color: #c15355;  
 }
 #p1{
     text-align: center;
@@ -63,7 +63,6 @@ header{
     color: white;
    
 }
-                         /* --------------------body-part-1-----------------*/
 .art{
     display: inline-block;
     width: 20%;
@@ -157,7 +156,7 @@ header{
     left: 35px;
     top: 25px;
     border-radius: 5px;
-    z-index: 0;
+    /* z-index:0; */
 }
                               /* --------------------body-part-2-----------------*/
 .class_t{
