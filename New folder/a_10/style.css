@@ -16,8 +16,15 @@ header{
     justify-content: space-between;
     align-items: center; 
 }
+.logo>h1>a{
+    text
+}
 .navbar>ul{
     display: flex;
+}
+.navbar>ul>li>a,.logo>h1>a{
+    text-decoration: none;
+    color: black;
 }
 .navbar>ul>li{
    list-style: none;
