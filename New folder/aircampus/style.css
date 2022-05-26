@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: sticky;
+    top: 0;
+}
+.logo>img{
+    width: 200px;
+}
+.contaniner_navbar{
+    padding: 20px 100px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar{
+    display: flex; 
+}
+.navbar>a{
+    text-decoration: none;
+    margin:0 20px;
+    color: black;
+    /* border: 1px solid black; */
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 1000ms;
+}
+.navbar>a:hover{
+    background-color: rgb(124, 68, 177);
+    color: aqua;
+}
+
+
+.bannar{
+    text-align: center;
+    margin:50px ;
+}
+.bannar>h1{
+    font-size: 70px;
+    font-weight: normal;
+}
+.bannar>h2{
+    font-size: 85px;
+    font-weight: normal;
+    /* border: 1px solid black; */
+    margin: 30px 350px ;
+    background-color:rgb(124, 68, 177);
+    color: aqua;
+    border-radius: 20px;
+}
+.bannar>h3{
+    font-size: 35px;
+}
+.bannar>p{
+    margin-top: 50px;
+    font-size: 22px;
+}
+.bannar>p>span{
+    color: rgb(124, 68, 177);
+}
+.bannar>button{
+    margin: 25px 0;
+    border: none;
+    background-color:rgb(124, 68, 177) ;
+    color: aqua;
+    padding: 10px 20px;
+    font-size: 35px;
+    border-radius: 3px;
+}
+
+.course{
+    /* border: 1px solid black; */
+    padding: 70px 0;
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+}
+.part{
+    width: 25%;
+    border: 5px solid rgb(10, 235, 235);
+    margin:0 15px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    transition: 1000ms;
+    /* box-shadow: ; */
+}
+.part:hover{
+    margin:5px 0;
+}
+.part>h3{
+    font-size: 23px;
+}
+.part>h2{
+    font-size: 40px;
+    margin: 10px 0;
+    color:rgb(124, 68, 177) ;
+}
+.part>p{
+    font-size: 25px;
+    color: rgb(82, 79, 79);
+}
+.company{
+    /* border: 2px solid black; */
+    text-align: center;
+    margin:0 50px ;
+    padding:20px 120px;
+}
+.company>img{
+    height: 50px;
+    margin: 40px 20px;
+}
+.placement>div>h3{
+    margin: 20px 50px;
+    color:rgb(82, 79, 79) ;
+}
+.placement>div>h1{
+    margin: 20px 40px;
+    color:rgb(124, 68, 177);
+}
+.placement>h4{
+    /* border: 1px solid black; */
+    text-align: center;
+}
+.whatsapp>a{
+    text-decoration: none;
+    /* border: 1px solid black; */
+    padding: 7px 20px;
+    background-color: rgb(124, 68, 177);
+    color:white;
+    font-size: 25px;
+    position: fixed;
+    top: 550px;
+    right: 50px;
+    border-radius: 5px;
+}
+.whatsapp>a>i{
+    font-size: 35px;
+    background-color: white;
+    color: green;
+    border-radius: 60%;
+}
+.whatsapp>a:hover{
+    background-color: aqua;
+    color: black;
+    font-weight: bold;
+}
