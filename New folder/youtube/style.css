@@ -9,6 +9,7 @@ nav{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    border: 1px solid black;
 }
 header i{
     cursor: pointer;
@@ -57,6 +58,7 @@ header i{
 .search>input{
     height: 30px;
     width: 350px;
+    padding-left: 10px;
 }
 .voice>i{
     margin-left: 30px;
@@ -79,7 +81,7 @@ header i{
     text-decoration: none;
     font-weight: bold;
     border: 1px solid black;
-    padding: 7px 10px;
+    padding: 7px 12px;
     border-radius: 50%;
     background-color: blue;
     color: white;

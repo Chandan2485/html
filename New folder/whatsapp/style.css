@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    background-color: rgb(31, 141, 132);
+}
+nav{
+    /* border: 1px solid red; */
+}
+nav>a{
+    margin: 0 20px;
+}
+nav{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+nav>a{
+    text-decoration: none;
+    color: white;
+}
+nav>a>i{
+    margin-right: 6px;
+}
+.logo>a{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo>i{
+    font-size: 40px;
+    /* background-color: green; */
+    color:white;
+    margin-right: 5px;
+}
+.logo>a{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+
+
+
+.part_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 33px 0;
+    /* border: 1px solid black; */
+}
+.d_img{
+    /* border: 1px solid black; */
+    margin-left: 50px;
+}
+.d_img>img{
+    height: 500px;
+}
+.D_info{
+    width: 300px;
+    margin-right: 50px;
+}
+.D_info>p,.D_info>h5{
+    margin: 30px 0;
+}
+.D_info>h5{
+    font-weight: normal;
+    color: rgb(104, 100, 100);
+}
+.download{
+    display: flex;
+    flex-direction: column;
+}
+.download>a{
+    margin: 10px 0;
+    text-decoration: none;
+}
+.download>a>i{
+    margin-right: 10px;
+    font-size: 20px;
+    /* border: 1px solid black; */
+    /* height: 230px; */
+    width: 30px;
+}
+
