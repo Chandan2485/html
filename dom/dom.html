@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .link {
+            font-size: 20px;
+            margin: 10px;
+            padding: 5px;
+            border: 2px solid black;
+            background-color: aqua;
+        }
+        .box{
+            background-color: rgb(102, 102, 148);
+        }
+    </style>
+</head>
+
+<body>
+ 
+      
+            <a href="" class="link">link 1</a>
+            <a href="" class="link">link 2</a>
+            <a href="" class="link">link 3</a>
+            <a href="" class="link">link 4</a>
+        <div class="box">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit officiis non eveniet quos sint
+                unde rerum tempore recusandae soluta ratione laborum, eum distinctio? Laudantium molestiae fuga natus
+                reiciendis ea beatae? Provident ipsam, possimus assumenda veniam id quos minus dolore sint vitae esse
+                itaque in officia debitis doloribus harum quae, dolorum dolor! Voluptates nam labore nulla soluta
+                dignissimos! Itaque quas alias neque dolorem obcaecati eveniet, dicta veritatis cum ex placeat ipsum
+                incidunt, illo animi numquam commodi sint voluptatem nam repellendus! Molestias natus autem illum
+                blanditiis sed libero fugit nesciunt quibusdam quas temporibus, ab vitae asperiores eaque corporis
+                voluptatibus deserunt ratione incidunt.</p>
+        </div>
+    </header>
+
+    <script>
+        let menu = document.querySelector('.link')
+        let links = document.querySelecytor('p')
+
+        menu.addEventListener("click",myfunction);
+
+        function myfunction(){
+            if(links.style.display == "none"){
+                links.style.display = "block"
+            }
+            else{
+                links.style.display = "none"
+            }
+        }
+    </script>
+</body>
+
+</html>
